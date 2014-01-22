@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <SearchView
+                android:id="@+id/search"
+                android:layout_width="1103dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.81"
+                android:iconifiedByDefault="false" >
+
+            </SearchView>
+
+            <CheckBox
+                android:id="@+id/search_box"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.54"
+                android:text="Search PDFs" />
+        </LinearLayout>
+
+        <ExpandableListView
+            android:id="@+id/expandableList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ExpandableListView>
+
+    </LinearLayout>
+
+</RelativeLayout>

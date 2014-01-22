@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MiTek Mobile Guide</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="terms_text">The information in this application contains designs which give an easy on-site installation guide when fixing connectors, nail plates and structural brackets in relation to the Building Code Approved Documents B1 Structure and B2 Durability. 
+							  \n\n  Characteristic Loadings Data for LUMBERLOCK® Timber Connectors and BOWMAC® Structural Brackets are not covered in their entirety in this application. Refer to separate brochures for design values.
+							  \n\n  The applications in this site guide are to be configured in accordance with the instructions. Substitution of specified or recommended components with alternative brands may compromise performance.
+						      \n\n  Further design advice on the selection of MiTek® products can be provided byoir technical support offices in Auckland or Christchurch.
+	</string>
+	<string name="continue_button">Continue</string>
+	<string name="result_text">"Results"</string>
+
+</resources>
+
