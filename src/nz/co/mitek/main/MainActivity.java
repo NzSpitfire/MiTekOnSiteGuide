@@ -69,7 +69,10 @@ public class MainActivity extends Activity implements
 			public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 				if(isChecked){
 					listAdapter.filterData("", false);
-					expandAll();
+					collapseAll();
+					//expandAll();
+					Toast.makeText(getApplicationContext(), 
+                            "Open sections you wish to search in", Toast.LENGTH_LONG).show();
 				}
 				
 			}
@@ -133,6 +136,15 @@ public class MainActivity extends Activity implements
 		int count = listAdapter.getGroupCount();
 		for (int i = 0; i < count; i++) {
 			myList.expandGroup(i);
+		}	
+
+	}
+	
+	// method to collapse all groups
+	public void collapseAll() {
+		int count = listAdapter.getGroupCount();
+		for (int i = 0; i < count; i++) {
+			myList.collapseGroup(i);
 		}	
 
 	}

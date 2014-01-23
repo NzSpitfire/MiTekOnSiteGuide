@@ -87,7 +87,7 @@ public class MyListAdapter extends BaseExpandableListAdapter {
 
 
 		
-		if(text== null){
+		if(text == null){
 			resultText.setVisibility(View.GONE);
 		}
 		else{
